@@ -19,13 +19,14 @@
     <h2>白小纯 第二次测试</h2>
 
     <p>我是董洪港，我第一次创建了p标签</p>
+    <p>准备提交 第1次</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "App",
-};
+  name: 'App'
+}
 </script>
 
 <style lang="less"></style>
