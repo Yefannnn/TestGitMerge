@@ -92,5 +92,17 @@ export default new VueRouter({
                 component:()=> import ('@/pages/mapPage.vue')
             }]
         },
+        {
+            path: '/test',
+            name:'test',
+            component: ()=> import('@/layout/index.vue'),
+            meta:{
+                path:'test'
+            },
+            children:[{
+                path:'',
+                component:()=> import ('@/pages/testPage.vue')
+            }]
+        }
     ]
 })
